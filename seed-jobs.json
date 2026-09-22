@@ -1,0 +1,325 @@
+[
+  {
+    "id": "business-analyst-hanoi",
+    "title": "Business Analyst (Giáo dục)",
+    "company": "Đối tác ngành Giáo dục — Hà Nội",
+    "location": "Hà Nội",
+    "industry": "IT/Công nghệ thông tin",
+    "salary": "20 - 25 triệu",
+    "experience": "3+ năm (ưu tiên dự án ngành Giáo dục)",
+    "type": "Toàn thời gian",
+    "postedDate": "17/09/2026",
+    "status": "open",
+    "lang": "vi",
+    "description": [
+      "Khảo sát và phân tích nghiệp vụ: lập kế hoạch discovery, phỏng vấn/workshop, mô hình hoá AS-IS/TO-BE bằng BPMN",
+      "Đặc tả yêu cầu và thiết kế giải pháp: viết BRD/SRS, user story, use case, acceptance criteria; quản lý traceability và thay đổi yêu cầu",
+      "Đồng hành phát triển, UAT và nghiệm thu: review sản phẩm, xây dựng kịch bản UAT, chuẩn bị biên bản nghiệm thu",
+      "Quản trị nghiệp vụ và cải tiến: duy trì glossary, business rule catalog, đề xuất cải tiến quy trình",
+      "Ứng dụng AI trong công việc: phân tích và đặc tả use case AI/LLM, đảm bảo human-in-the-loop và kiểm soát rủi ro dữ liệu"
+    ],
+    "requirements": [
+      "Tốt nghiệp Đại học CNTT, Hệ thống thông tin, Quản trị, Kinh tế hoặc Giáo dục",
+      "Từ 3 năm kinh nghiệm BA/Product Analyst; ưu tiên có dự án phần mềm ngành Giáo dục",
+      "Bắt buộc có kinh nghiệm thực tế ứng dụng AI trong phân tích nghiệp vụ, discovery, tài liệu hoá",
+      "Thành thạo Discovery, workshop, BPMN/UML, user story/use case, acceptance criteria, wireframe, UAT",
+      "Hiểu khả năng và giới hạn của LLM/AI, biết thiết kế human-in-the-loop và đánh giá rủi ro bảo mật/tuân thủ"
+    ],
+    "benefits": [
+      "Môi trường ứng dụng AI vào quy trình thực tế",
+      "Làm việc T2-T6"
+    ],
+    "company_desc": "Vị trí Business Analyst tại một tổ chức trong lĩnh vực giáo dục, khu vực Hà Nội."
+  },
+  {
+    "id": "chief-accountant-binhdinh",
+    "title": "Chief Accountant",
+    "company": "Manufacturing company — Bình Định",
+    "location": "Bình Định",
+    "industry": "Kế toán - Tài chính",
+    "salary": "Up to 60 million VND",
+    "experience": "5+ years in manufacturing costing",
+    "type": "Full-time",
+    "postedDate": "17/09/2026",
+    "status": "open",
+    "lang": "en",
+    "description": [
+      "Develop and manage the accounting, tax, and custom function",
+      "Manage all rounded financial and accounting issues for the establishment in Vietnam",
+      "Plan and carry out accounting activities to maintain timely and accurate reports to headquarters and local tax offices",
+      "Handle all matters relating to tax, including annual audit and tax office queries",
+      "Manage and implement the Group's accounting systems, internal control and practices in Vietnam",
+      "Handle day-to-day finance and accounting related duties; perform ad hoc projects as assigned"
+    ],
+    "requirements": [
+      "Degree in Accounting / Finance or other relevant disciplines",
+      "Minimum 5 years solid working experience in manufacturing costing",
+      "Experience with multinational or sizable organization is an advantage",
+      "Experience in ERP systems is a must",
+      "Proficiency in English & able to communicate at all levels",
+      "Clear logical thinking, strong data analysis and planning-database skills, sensitive to numbers"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Social / health / unemployment insurance as per regulations",
+      "Phone allowance and other support benefits",
+      "Opportunities for professional development and training"
+    ],
+    "company_desc": "A manufacturing company based in Binh Dinh province."
+  },
+  {
+    "id": "ke-toan-truong-longthanh",
+    "title": "Kế Toán Trưởng",
+    "company": "Doanh nghiệp sản xuất — Long Thành",
+    "location": "Đồng Nai",
+    "industry": "Kế toán - Tài chính",
+    "salary": "Lên đến 50 triệu",
+    "experience": "8 năm kế toán (3+ năm ở vị trí Kế toán trưởng)",
+    "type": "Toàn thời gian",
+    "postedDate": "09/09/2026",
+    "status": "open",
+    "lang": "vi",
+    "description": [
+      "Chịu trách nhiệm toàn bộ công tác kế toán, báo cáo tài chính, quyết toán năm theo VAS",
+      "Thực hiện đóng sổ tháng/quý/năm, làm việc với kiểm toán, quản lý hệ thống ERP",
+      "Kê khai thuế GTGT/TNDN/TNCN, thuế nhập khẩu/hoàn thuế xuất khẩu",
+      "Lập ngân sách chi phí, quản lý dòng tiền/thanh toán quốc tế",
+      "Kiểm soát nội bộ, quản trị rủi ro và quản lý đội ngũ kế toán địa phương"
+    ],
+    "requirements": [
+      "Tốt nghiệp Đại học chuyên ngành Kế toán trở lên",
+      "Có chứng chỉ Kế toán trưởng được Bộ Tài chính Việt Nam công nhận",
+      "8 năm kinh nghiệm kế toán, trong đó 3+ năm ở vị trí Kế toán trưởng",
+      "Quốc tịch Việt Nam, thành thạo tiếng Trung - Việt",
+      "Đạo đức nghề nghiệp cao, ý thức bảo mật tốt"
+    ],
+    "benefits": [
+      "Môi trường doanh nghiệp có yếu tố nước ngoài"
+    ],
+    "company_desc": "Doanh nghiệp sản xuất tại Đồng Nai."
+  },
+  {
+    "id": "machine-operator-binhduong",
+    "title": "Nhân Viên Vận Hành Máy (Ép nhựa)",
+    "company": "Doanh nghiệp sản xuất — Bình Dương",
+    "location": "Bình Dương",
+    "industry": "Sản xuất",
+    "salary": "12 - 15 triệu (trao đổi khi phỏng vấn, tùy theo kinh nghiệm)",
+    "experience": "Ưu tiên đã làm kỹ thuật chỉnh máy và có kiến thức về máy ép nhựa",
+    "type": "Làm việc theo ca",
+    "postedDate": "08/09/2026",
+    "status": "open",
+    "lang": "vi",
+    "description": [
+      "Vận hành máy ép nhựa bao gồm từ khâu lên liệu và thay khuôn, chỉnh khuôn",
+      "Kiểm soát phế phẩm",
+      "Xử lý nhanh các sự cố trong quá trình sản xuất liên quan tới chất lượng sản phẩm và vận hành máy",
+      "Nghiên cứu phân tích các vấn đề phát sinh lỗi, từ đó đề xuất các phương án khắc phục, cải tiến và phòng ngừa",
+      "Lập báo cáo hàng ngày về kết quả công việc và các vấn đề phát sinh trực tiếp cho cấp trên",
+      "Vệ sinh khuôn, vệ sinh máy, khu vực làm việc hàng ngày trong ca sản xuất",
+      "Quản lý máy móc, thiết bị, dụng cụ được giao không bị thất thoát",
+      "Bảo trì, bảo dưỡng máy theo định kỳ hàng tháng",
+      "Các yêu cầu khác theo sự phân công từ quản lý sản xuất"
+    ],
+    "requirements": [
+      "Tốt nghiệp trung cấp/cao đẳng chuyên ngành điện, điện tử, cơ khí, tự động hóa",
+      "Làm việc xoay ca",
+      "Nhanh nhẹn, hoạt bát, hòa đồng, ham học hỏi",
+      "Ưu tiên cho những người đã làm công việc kỹ thuật chỉnh máy và có kiến thức về máy ép nhựa",
+      "Ứng viên ở Bình Dương (ưu tiên khu vực VSIP II)"
+    ],
+    "benefits": [
+      "Lương 12 - 15 triệu, trao đổi khi phỏng vấn (tùy theo kinh nghiệm)",
+      "Thử việc 02 tháng",
+      "Cơ hội huấn luyện, đào tạo từ công ty",
+      "Ngày nghỉ: Chủ nhật hàng tuần",
+      "Tham gia bảo hiểm 24/24 khi ký hợp đồng lao động",
+      "Tặng quà các dịp sinh nhật, 8/3, 30/4, 2/9,...",
+      "Được tham gia đầy đủ BHXH, đóng bảo hiểm từ khi thử việc",
+      "Lương tháng 13"
+    ],
+    "company_desc": "Doanh nghiệp sản xuất tại Bình Dương."
+  },
+  {
+    "id": "presales-consultant-hcmc",
+    "title": "Pre-sales Consultant",
+    "company": "Doanh nghiệp SaaS — TP.HCM",
+    "location": "Hồ Chí Minh",
+    "industry": "IT/Công nghệ thông tin",
+    "salary": "Negotiable (OTE at 100% KPI); fixed base salary not tied to revenue",
+    "experience": "5+ years of Pre-Sales experience in SaaS, DMS, ERP, or enterprise software",
+    "type": "Full-time",
+    "postedDate": "08/09/2026",
+    "status": "open",
+    "lang": "en",
+    "description": [
+      "Work closely with the Sales Team to analyze customer needs and propose SaaS-based DMS and Omni-Channel solutions aligned with their digital transformation goals",
+      "Design, prepare, and deliver high-impact demos, POCs, and solution presentations showcasing how the technology optimizes distribution operations, enhances customer engagement, and streamlines multi-channel sales execution",
+      "Collaborate with Product & Implementation teams to ensure a seamless transition from pre-sales discussions to deployment, aligning customer expectations with solution capabilities",
+      "Act as a strategic advisor to customers on their digital transformation journey, providing insights into best practices, omni-channel sales trends, and scalable SaaS adoption"
+    ],
+    "requirements": [
+      "5+ years of Pre-Sales experience in SaaS, DMS, ERP, or enterprise software solutions",
+      "Strong understanding of FMCG, pharmaceutical, retail, and distribution channels (GT & MT), and omni-channel sales strategies",
+      "Excellent communication, presentation, and problem-solving skills",
+      "Experience working with DMS, SFA, Omni-Channel Commerce, or ERP solutions is a plus"
+    ],
+    "benefits": [
+      "Be part of a global tech powerhouse",
+      "Work with top-tier FMCG, pharmaceutical, and retail clients, solving complex business challenges with advanced SaaS and Omni-Channel solutions",
+      "Strong learning and career growth opportunities with next-gen DMS and digital transformation technology",
+      "Competitive salary and performance-based bonuses"
+    ],
+    "company_desc": "A SaaS solutions provider backed by a global, publicly listed (TSX) software group."
+  },
+  {
+    "id": "hris-specialist-summit",
+    "title": "HRIS Specialist (Night Shift)",
+    "company": "Summit Polymers",
+    "location": "Hồ Chí Minh",
+    "industry": "Nhân sự",
+    "salary": "Negotiable, up to 40 million VND",
+    "experience": "Experience managing a global HRIS environment; Dayforce certifications preferred",
+    "type": "Night Shift (8:00 PM - 4:45 AM)",
+    "postedDate": "27/08/2026",
+    "status": "open",
+    "lang": "en",
+    "description": [
+      "Serve as the primary administrator and subject matter expert for Dayforce (Ceridian), configuring and maintaining modules including Core HR, Payroll, Benefits, Recruiting, and Time & Attendance",
+      "Manage system security roles and permissions; troubleshoot system issues and partner with internal stakeholders and vendors to resolve problems",
+      "Develop user guides and provide end-user support and training for HR, managers, and employees",
+      "Identify opportunities to improve processes through automation and workflow enhancements; lead HRIS projects including implementations, upgrades, testing, and new module deployments",
+      "Maintain system documentation, SOPs and process maps; coordinate system updates, patches, and new feature releases; configure workflows, approval paths, forms and notifications",
+      "Develop and maintain HR dashboards, reports, and metrics; ensure data integrity through regular audits and validation; support regulatory and compliance reporting",
+      "Maintain confidentiality of sensitive employee information and ensure HRIS processes comply with applicable employment regulations; support audit requests",
+      "Partner with Payroll, Benefits, IT, Finance and other departments on system integration; coordinate data imports, exports and interfaces with third-party systems",
+      "Work night shift at the office in District 4, Ho Chi Minh City"
+    ],
+    "requirements": [
+      "Dayforce certifications preferred; experience managing a global HRIS environment",
+      "Experience with integrations and interfaces between HR and business systems",
+      "Strong knowledge of Dayforce functionality and best practices; understanding of HR processes, payroll practices, and data governance principles",
+      "Advanced reporting and analytical skills; strong troubleshooting and problem-solving abilities",
+      "Excellent project management and organizational skills; able to explain technical concepts to non-technical users",
+      "Minimum score of 50 on the Wonderlic Select Assessment (Traditional Score of 20 on the cognitive portion)",
+      "Successful completion of all required pre-employment screening/testing procedures",
+      "Good English; open to candidates from an IT/systems background even without prior HR experience"
+    ],
+    "benefits": [
+      "Healthcare Plan"
+    ],
+    "company_desc": "Summit Polymers, based in District 4, Ho Chi Minh City."
+  },
+  {
+    "id": "sofa-production-manager-binhdinh",
+    "title": "Sofa Production Manager",
+    "company": "Doanh nghiệp sản xuất nội thất — Bình Định",
+    "location": "Bình Định",
+    "industry": "Sản xuất",
+    "salary": "Up to 60 million VND",
+    "experience": "Minimum 2 years of supervisory experience (garment, furniture, automotive or electronics manufacturing preferred)",
+    "type": "Full-time",
+    "postedDate": "03/09/2026",
+    "status": "open",
+    "lang": "en",
+    "description": [
+      "Production Planning & Execution: assist the Production Manager in planning, organizing and controlling all sofa production activities to meet production targets, delivery schedules and customer requirements; coordinate manpower, machines and materials, and drive recovery plans when output falls below target",
+      "Operations Management: manage and supervise multiple Sofa Supervisors and Team Leaders, monitor line performance, capacity utilization and WIP control, and ensure processes comply with approved SOPs and standards",
+      "People Leadership & Organization Development: lead, coach and develop Sofa Supervisors, Team Leaders and key production personnel; support recruitment, training, performance management and succession planning",
+      "Productivity & Continuous Improvement: drive Lean Manufacturing, Kaizen, 5S and Standard Work initiatives to increase productivity and reduce labor cost; work with IE to improve line balancing and manpower utilization",
+      "Quality Management: ensure operations comply with customer specifications and quality standards; drive root cause analysis and corrective actions to reduce defects, rework and customer complaints",
+      "Safety & Equipment Management: ensure full HSE compliance, promote a safe working environment, and coordinate with Maintenance on equipment reliability and preventive maintenance",
+      "Material & Production Control: coordinate with Planning, Warehouse, Purchasing and Technical departments to ensure production readiness and minimize losses from material shortages or downtime",
+      "Cross-functional Coordination: work with IE, Technical, Quality, Planning, Warehouse, Maintenance and Engineering to support production objectives, new product introduction and process validation",
+      "Reporting & Performance Management: review daily, weekly and monthly KPIs (Output, Efficiency, Productivity, Quality, Delivery, Labor Cost, Safety) and present improvement actions to senior management",
+      "Act on behalf of the Production Manager when assigned, and perform other duties as required"
+    ],
+    "requirements": [
+      "Minimum 2 years of supervisory experience; experience in garment, furniture, automotive or electronics manufacturing is highly preferred",
+      "Bachelor's degree in Industrial Engineering, Production Management, or a related field (Master's degree preferred)",
+      "Strong collaboration skills and the ability to communicate in English",
+      "Strong leadership and team management skills; ability to supervise multiple production lines and manpower allocation",
+      "Good understanding of production processes, productivity improvement and quality control; strong analytical and problem-solving skills",
+      "Familiar with ERP/MES systems; good command of Microsoft Excel, Word and PowerPoint",
+      "Knowledge of Lean Manufacturing, 5S, Kaizen and Continuous Improvement is preferred",
+      "Strong ownership, accountability, and a proactive, results-oriented mindset with high integrity"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Social / health / unemployment insurance as per regulations",
+      "Phone allowance and other support benefits",
+      "Opportunities for professional development and training"
+    ],
+    "company_desc": "A furniture manufacturing company based in Binh Dinh province."
+  },
+  {
+    "id": "finishing-factory-manager",
+    "title": "Finishing Factory Manager",
+    "company": "Doanh nghiệp Dệt may — Nam Định",
+    "location": "Nam Định",
+    "industry": "Sản xuất",
+    "salary": "Up to 70 million VND",
+    "experience": "At least 3 years in the same manager position; 10+ years in Textile Industry",
+    "type": "Full-time",
+    "postedDate": "17/09/2026",
+    "status": "open",
+    "lang": "en",
+    "description": [
+      "Implementing the production plans: proposing and organizing daily work assignments for shifts, teams and workers to optimize machinery, equipment and manpower",
+      "Urging and supervising factory processes to ensure production follows the technological process, quality and schedule as required",
+      "Human Resource Management: reviewing personnel demand, proposing recruitment, training, coaching and mentoring staff, evaluating work performance",
+      "Managing and improving efficiency and quality: resolving issues related to quality and equipment, guiding improvements to the production process",
+      "Directly deciding issues within the scope of Management's assignment; reporting directly to the Board of Management or CEO"
+    ],
+    "requirements": [
+      "At least 3 years of management experience in the same manager position",
+      "At least 10 years of experience in the Textile Industry",
+      "Graduated from College and above, majoring in Textile Industry",
+      "Foreign language proficiency prioritized (English)"
+    ],
+    "benefits": [
+      "Reports directly to the Board of Management / CEO",
+      "Direct decision-making authority within assigned management scope"
+    ],
+    "company_desc": "A textile manufacturing company based in Nam Định."
+  },
+  {
+    "id": "senior-project-manager-hanoi",
+    "title": "Senior Project Manager",
+    "company": "Doanh nghiệp Công nghệ/Dịch vụ — Hà Nội",
+    "location": "Hà Nội",
+    "industry": "IT/Công nghệ thông tin",
+    "salary": "Up to 150 million VND, negotiable",
+    "experience": "5+ years delivering complex, multi-stakeholder projects",
+    "type": "Full-time",
+    "postedDate": "17/09/2026",
+    "status": "open",
+    "lang": "en",
+    "description": [
+      "Act as the primary point of contact for project communication, collaborating with customers, Customer Success Managers, production, operations and other departments",
+      "Ensure all client-facing and internal stakeholders stay aligned with full transparency on status updates",
+      "Lead and coordinate resources and capacities across multiple locations to ensure seamless project delivery",
+      "Take full charge of creating key project documents: project plans, roadmaps and project charters from Day 1",
+      "Establish and enforce project governance processes across all departments",
+      "Proactively anticipate, identify and manage risks before they escalate into critical issues",
+      "Produce highly structured project reports and post-project reviews for leadership"
+    ],
+    "requirements": [
+      "Open to both Vietnamese and expat candidates (Europe, US)",
+      "5+ years of proven experience delivering complex, high-impact projects with a large number of stakeholders across multiple locations",
+      "Prior experience managing client-facing projects in a multi-language, cross-cultural environment",
+      "PRINCE2 Practitioner Certification is mandatory",
+      "Fluent professional English, written and verbal, is mandatory",
+      "Strong ownership mindset, calm under high pressure, assertive and trustworthy"
+    ],
+    "benefits": [
+      "Thưởng: Attractive salary reflecting your impact on business and quality outcomes.",
+      "Chăm sóc sức khoẻ: Full statutory insurance plus an enhanced private healthcare plan, along with annual health check-ups and wellbeing programs.",
+      "Nghỉ phép có lương: Flexible working hours in a results-oriented culture with 5 days working from home per month. Up to 15 days annual leave, summer day off, and full maternity (6 months) & paternity (2 weeks) leave.",
+      "Đào tạo: Clear development pathways, hands-on training, and opportunities to build new capabilities in operations, AI-driven production, and quality systems.",
+      "Hoạt động nhóm: Team building activities, company trips, clubs (sports, chess, etc.), Happy Friday events, and a collaborative, energetic workplace.",
+      "Khác: Work in a truly international environment, collaborating with teams across Europe, the US, and Asia."
+    ],
+    "company_desc": "A company delivering complex, cross-location client projects, based in Ha Noi."
+  }
+]

@@ -282,6 +282,8 @@ table.dash-table th{color:var(--text-soft);font-weight:700;font-size:12px;text-t
   .hero h1{font-size:32px;}
   .search-grid{grid-template-columns:1fr;}
 }
+.fmt-btn{width:32px;height:28px;border:1px solid var(--line);background:#fff;border-radius:6px;cursor:pointer;font-size:14px;line-height:1;}
+.fmt-btn:hover{background:#f2f2ee;}
 </style>
 </head>
 <body>
@@ -879,9 +881,33 @@ table.dash-table th{color:var(--text-soft);font-weight:700;font-size:12px;text-t
           </div>
         </div>
         <div class="form-group" style="margin-bottom:14px;"><label>Loại hình</label><input id="njType" type="text" placeholder="Toàn thời gian" value="Toàn thời gian"></div>
-        <div class="form-group" style="margin-bottom:14px;"><label>Mô tả công việc (mỗi dòng 1 gạch đầu dòng)</label><textarea id="njDescription" style="min-height:90px;"></textarea></div>
-        <div class="form-group" style="margin-bottom:14px;"><label>Yêu cầu (mỗi dòng 1 gạch đầu dòng)</label><textarea id="njRequirements" style="min-height:90px;"></textarea></div>
-        <div class="form-group" style="margin-bottom:14px;"><label>Quyền lợi (mỗi dòng 1 gạch đầu dòng)</label><textarea id="njBenefits" style="min-height:70px;"></textarea></div>
+        <div class="form-group" style="margin-bottom:14px;">
+          <label>Mô tả công việc (mỗi dòng 1 gạch đầu dòng — bôi đen chữ rồi bấm B/I/U để định dạng)</label>
+          <div style="display:flex;gap:6px;margin-bottom:6px;">
+            <button type="button" class="fmt-btn" style="font-weight:700;" onclick="wrapSelection('njDescription','**')">B</button>
+            <button type="button" class="fmt-btn" style="font-style:italic;" onclick="wrapSelection('njDescription','*')">I</button>
+            <button type="button" class="fmt-btn" style="text-decoration:underline;" onclick="wrapSelection('njDescription','_')">U</button>
+          </div>
+          <textarea id="njDescription" style="min-height:180px;"></textarea>
+        </div>
+        <div class="form-group" style="margin-bottom:14px;">
+          <label>Yêu cầu (mỗi dòng 1 gạch đầu dòng — bôi đen chữ rồi bấm B/I/U để định dạng)</label>
+          <div style="display:flex;gap:6px;margin-bottom:6px;">
+            <button type="button" class="fmt-btn" style="font-weight:700;" onclick="wrapSelection('njRequirements','**')">B</button>
+            <button type="button" class="fmt-btn" style="font-style:italic;" onclick="wrapSelection('njRequirements','*')">I</button>
+            <button type="button" class="fmt-btn" style="text-decoration:underline;" onclick="wrapSelection('njRequirements','_')">U</button>
+          </div>
+          <textarea id="njRequirements" style="min-height:180px;"></textarea>
+        </div>
+        <div class="form-group" style="margin-bottom:14px;">
+          <label>Quyền lợi (mỗi dòng 1 gạch đầu dòng — bôi đen chữ rồi bấm B/I/U để định dạng)</label>
+          <div style="display:flex;gap:6px;margin-bottom:6px;">
+            <button type="button" class="fmt-btn" style="font-weight:700;" onclick="wrapSelection('njBenefits','**')">B</button>
+            <button type="button" class="fmt-btn" style="font-style:italic;" onclick="wrapSelection('njBenefits','*')">I</button>
+            <button type="button" class="fmt-btn" style="text-decoration:underline;" onclick="wrapSelection('njBenefits','_')">U</button>
+          </div>
+          <textarea id="njBenefits" style="min-height:140px;"></textarea>
+        </div>
         <button class="btn btn-primary" type="submit">Đăng tin</button>
       </form>
     </div>
@@ -1015,6 +1041,15 @@ function resetFilters(){
 }
 
 /* ===================== JOB MODAL ===================== */
+// Chuyển **đậm**, *nghiêng*, _gạch chân_ đã gõ ở Trang quản trị thành HTML thật khi hiển thị công khai
+function mdToHtml(text){
+  let s = String(text).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  s = s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+  s = s.replace(/_(.+?)_/g,'<u>$1</u>');
+  s = s.replace(/\*(.+?)\*/g,'<i>$1</i>');
+  return s;
+}
+
 function openJobModal(id){
   const job = jobs.find(j=>j.id===id);
   if(!job) return;
@@ -1029,10 +1064,10 @@ function openJobModal(id){
     <span>${job.type}</span>`;
   document.getElementById('mdBody').innerHTML = `
     <h4>Mô tả công việc</h4>
-    <ul>${job.description.map(d=>`<li>${d}</li>`).join('')}</ul>
+    <ul>${job.description.map(d=>`<li>${mdToHtml(d)}</li>`).join('')}</ul>
     <h4>Yêu cầu ứng viên</h4>
-    <ul>${job.requirements.map(d=>`<li>${d}</li>`).join('')}</ul>
-    ${job.benefits && job.benefits.length ? `<h4>Quyền lợi</h4><ul>${job.benefits.map(d=>`<li>${d}</li>`).join('')}</ul>` : ''}
+    <ul>${job.requirements.map(d=>`<li>${mdToHtml(d)}</li>`).join('')}</ul>
+    ${job.benefits && job.benefits.length ? `<h4>Quyền lợi</h4><ul>${job.benefits.map(d=>`<li>${mdToHtml(d)}</li>`).join('')}</ul>` : ''}
     <h4>Nhà tuyển dụng phụ trách</h4>
     <p style="color:var(--text-soft);">Phạm Khánh Linh — Recruitment &amp; HR</p>`;
   const applyBtn = document.getElementById('mdApplyBtn');
@@ -1253,6 +1288,18 @@ async function deleteJob(id){
     await loadJobs();
     renderDashJobs();
   }catch(err){ alert('Không xoá được tin. Vui lòng thử lại.'); }
+}
+
+// Bôi đen 1 đoạn trong ô nhập, bấm B/I/U để bọc markers **đậm** / *nghiêng* / _gạch chân_ quanh đoạn đó
+function wrapSelection(textareaId, marker){
+  const ta = document.getElementById(textareaId);
+  const start = ta.selectionStart, end = ta.selectionEnd;
+  const val = ta.value;
+  const selected = val.slice(start, end) || 'chữ';
+  ta.value = val.slice(0, start) + marker + selected + marker + val.slice(end);
+  ta.focus();
+  ta.selectionStart = start + marker.length;
+  ta.selectionEnd = start + marker.length + selected.length;
 }
 
 async function submitNewJob(e){

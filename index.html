@@ -735,15 +735,119 @@ table.dash-table th{color:var(--text-soft);font-weight:700;font-size:12px;text-t
       <form id="addJobForm" onsubmit="return submitNewJob(event)">
         <div class="form-row">
           <div class="form-group"><label>Vị trí *</label><input required id="njTitle" type="text"></div>
-          <div class="form-group"><label>Công ty *</label><input required id="njCompany" type="text"></div>
+          <div class="form-group"><label>Công ty *</label><input required id="njCompany" type="text" placeholder="Tên thật — chỉ chị thấy trong Trang quản trị"></div>
+        </div>
+        <div class="form-group" style="margin-bottom:14px;">
+          <label style="display:flex;align-items:center;gap:8px;font-weight:400;">
+            <input type="checkbox" id="njHideCompany" style="width:auto;">
+            Ẩn tên công ty với ứng viên (hiện "Bảo mật thông tin" trên tin đăng công khai)
+          </label>
         </div>
         <div class="form-row">
-          <div class="form-group"><label>Khu vực *</label><input required id="njLocation" type="text"></div>
-          <div class="form-group"><label>Ngành nghề *</label><input required id="njIndustry" type="text"></div>
+          <div class="form-group">
+            <label>Khu vực *</label>
+            <select required id="njLocation">
+              <option value="" disabled selected>Chọn khu vực</option>
+              <option>TP. Hà Nội</option>
+              <option>Cao Bằng</option>
+              <option>Tuyên Quang</option>
+              <option>Lào Cai</option>
+              <option>Thái Nguyên</option>
+              <option>Điện Biên</option>
+              <option>Lai Châu</option>
+              <option>Sơn La</option>
+              <option>Lạng Sơn</option>
+              <option>Quảng Ninh</option>
+              <option>Phú Thọ</option>
+              <option>Bắc Ninh</option>
+              <option>TP. Hải Phòng</option>
+              <option>Hưng Yên</option>
+              <option>Ninh Bình</option>
+              <option>Thanh Hóa</option>
+              <option>Nghệ An</option>
+              <option>Hà Tĩnh</option>
+              <option>Quảng Trị</option>
+              <option>TP. Huế</option>
+              <option>TP. Đà Nẵng</option>
+              <option>Quảng Ngãi</option>
+              <option>Gia Lai</option>
+              <option>Đắk Lắk</option>
+              <option>Khánh Hòa</option>
+              <option>Lâm Đồng</option>
+              <option>TP. Hồ Chí Minh</option>
+              <option>Đồng Nai</option>
+              <option>Tây Ninh</option>
+              <option>TP. Cần Thơ</option>
+              <option>Vĩnh Long</option>
+              <option>Đồng Tháp</option>
+              <option>Cà Mau</option>
+              <option>An Giang</option>
+              <option>Khác / Nhiều khu vực</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Ngành nghề *</label>
+            <select required id="njIndustry">
+              <option value="" disabled selected>Chọn ngành nghề</option>
+              <option>Công nghệ thông tin</option>
+              <option>Kế toán - Kiểm toán</option>
+              <option>Tài chính - Ngân hàng</option>
+              <option>Bảo hiểm</option>
+              <option>Nhân sự (HR)</option>
+              <option>Kinh doanh - Bán hàng</option>
+              <option>Marketing - Truyền thông</option>
+              <option>Thiết kế - Sáng tạo</option>
+              <option>Sản xuất - Vận hành nhà máy</option>
+              <option>Cơ khí - Kỹ thuật</option>
+              <option>Điện - Điện tử</option>
+              <option>Điện lạnh - Cơ điện (M&E)</option>
+              <option>Xây dựng</option>
+              <option>Bất động sản</option>
+              <option>Kiến trúc - Nội thất</option>
+              <option>Logistics - Chuỗi cung ứng</option>
+              <option>Xuất nhập khẩu</option>
+              <option>Vận tải - Kho bãi</option>
+              <option>Hàng không</option>
+              <option>Dệt may - Da giày</option>
+              <option>Thực phẩm - Đồ uống (F&B)</option>
+              <option>Bán lẻ - Thương mại điện tử</option>
+              <option>Dược phẩm - Y tế</option>
+              <option>Mỹ phẩm - Làm đẹp</option>
+              <option>Giáo dục - Đào tạo</option>
+              <option>Du lịch - Khách sạn - Nhà hàng</option>
+              <option>Pháp lý</option>
+              <option>Hành chính - Văn phòng</option>
+              <option>Nông - Lâm - Ngư nghiệp</option>
+              <option>Năng lượng - Môi trường</option>
+              <option>Hóa chất - Nhựa - Cao su</option>
+              <option>Khai khoáng - Luyện kim</option>
+              <option>Giấy - Bao bì - In ấn</option>
+              <option>Ô tô</option>
+              <option>Viễn thông</option>
+              <option>Truyền hình - Báo chí - Giải trí</option>
+              <option>Thể thao</option>
+              <option>An ninh - Bảo vệ</option>
+              <option>Chăm sóc khách hàng</option>
+              <option>Quản lý chất lượng (QA/QC)</option>
+              <option>Mua hàng (Purchasing)</option>
+              <option>Phi lợi nhuận - Tổ chức phi chính phủ (NGO)</option>
+              <option>Nhà nước - Cơ quan công quyền</option>
+              <option>Ngành khác</option>
+            </select>
+          </div>
         </div>
         <div class="form-row">
           <div class="form-group"><label>Mức lương</label><input id="njSalary" type="text" placeholder="VD: 20-25 triệu / Thoả thuận"></div>
-          <div class="form-group"><label>Kinh nghiệm</label><input id="njExperience" type="text" placeholder="VD: 3+ năm"></div>
+          <div class="form-group">
+            <label>Kinh nghiệm</label>
+            <select id="njExperience">
+              <option value="Không yêu cầu">Không yêu cầu</option>
+              <option value="Dưới 1 năm">Dưới 1 năm</option>
+              <option value="1-3 năm">1-3 năm</option>
+              <option value="3-5 năm">3-5 năm</option>
+              <option value="Trên 5 năm">Trên 5 năm</option>
+            </select>
+          </div>
         </div>
         <div class="form-group" style="margin-bottom:14px;"><label>Loại hình</label><input id="njType" type="text" placeholder="Toàn thời gian" value="Toàn thời gian"></div>
         <div class="form-group" style="margin-bottom:14px;"><label>Mô tả công việc (mỗi dòng 1 gạch đầu dòng)</label><textarea id="njDescription" style="min-height:90px;"></textarea></div>
@@ -1060,9 +1164,10 @@ async function checkDashPass(){
     btn.disabled = false; btn.textContent = oldLabel;
   }
 }
-function openDashFull(){
+async function openDashFull(){
   document.getElementById('dashFull').classList.add('open');
   document.body.style.overflow='hidden';
+  await loadJobs(); // nạp lại với quyền admin để thấy tên công ty thật (nếu đang ẩn công khai)
   renderDashJobs();
   renderDashApps();
 }
@@ -1127,6 +1232,7 @@ async function submitNewJob(e){
   const job = {
     title: document.getElementById('njTitle').value,
     company: document.getElementById('njCompany').value,
+    companyHidden: document.getElementById('njHideCompany').checked,
     location: document.getElementById('njLocation').value,
     industry: document.getElementById('njIndustry').value,
     salary: document.getElementById('njSalary').value || 'Thoả thuận',
@@ -1191,7 +1297,8 @@ async function downloadCv(id, filename){
 /* ===================== BOOT ===================== */
 async function loadJobs(){
   try{
-    const res = await fetch('/.netlify/functions/jobs');
+    const headers = adminKey ? { 'x-admin-key': adminKey } : {};
+    const res = await fetch('/.netlify/functions/jobs', { headers });
     if(!res.ok) throw new Error('HTTP '+res.status);
     jobs = await res.json();
   }catch(err){
